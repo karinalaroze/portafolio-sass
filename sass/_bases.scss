@@ -1,0 +1,20 @@
+*{
+	font-family: $body_font;
+}
+
+.waves-effect{
+	background-color: $color_button;
+}
+
+.fondos img{
+	width:100%;
+}
+
+.cuatro img{
+	width: $image_width;
+	heigth: $image_heigth;
+}
+
+.cuatro h4, h6{
+	text-align: $text_center;
+}
