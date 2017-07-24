@@ -2,12 +2,27 @@
 	font-family: $body_font;
 }
 
+nav{
+	position: $position;
+	z-index: $z-index;
+	box-shadow: $box-shadow;
+
+}
+
+.brand-logo{
+	margin-left: $left_uno;
+}
+
 .waves-effect{
 	background-color: $color_button;
 }
 
-.fondos img{
-	width:100%;
+.fondo {
+
+	width: $city_width;
+}
+.cuatro {
+	background-color: $background_dos;
 }
 
 .cuatro img{
@@ -18,3 +33,17 @@
 .cuatro h4, h6{
 	text-align: $text_center;
 }
+
+.cuatro li{
+	margin-left: $left_uno;
+	color: $color_uno;
+}
+
+.cinco h4, h6{
+	text-align: $text_center;
+}
+
+
+
+
+

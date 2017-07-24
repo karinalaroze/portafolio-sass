@@ -15,9 +15,10 @@ nav {
 
   color: $navbar-font-color;
   @extend .z-depth-1;
-  background-color: $primary-color;
+  background-color: transparent;
   width: 100%;
-  height: $navbar-height-mobile;
+  height: 
+  $navbar-height-mobile;
   line-height: $navbar-line-height-mobile;
 
   a { color: $navbar-font-color; }

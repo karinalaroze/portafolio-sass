@@ -3077,7 +3077,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: transparent;
   width: 100%;
   height: 56px;
   line-height: 56px; }
@@ -6775,17 +6775,35 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 * {
   font-family: "Raleway", sans-serif; }
 
+nav {
+  position: fixed;
+  z-index: 3;
+  box-shadow: none; }
+
+.brand-logo {
+  margin-left: 50px; }
+
 .waves-effect {
   background-color: #FF00FF; }
 
-.fondos img {
+.fondo {
   width: 100%; }
+
+.cuatro {
+  background-color: whitesmoke; }
 
 .cuatro img {
   width: 60%;
   heigth: 60%; }
 
 .cuatro h4, h6 {
+  text-align: center; }
+
+.cuatro li {
+  margin-left: 50px;
+  color: #FF00FF; }
+
+.cinco h4, h6 {
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
